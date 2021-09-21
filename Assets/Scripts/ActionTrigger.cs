@@ -5,18 +5,23 @@ using UnityEngine.Events;
 
 public class ActionTrigger : MonoBehaviour
 {
+
+    // invald syntax to intentionally break build
+    // this is a test for automated PR checks; please DO NOT merge this into main
+    foo = bar
+
     [SerializeField] private UnityEvent onTrigger;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Trigger() {
