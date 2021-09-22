@@ -6,17 +6,17 @@ using UnityEngine.Events;
 public class ActionTrigger : MonoBehaviour
 {
     [SerializeField] private UnityEvent onTrigger;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        int x = 42; // harmless addition to test that valid PRs will not be rejected by CI
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Trigger() {
